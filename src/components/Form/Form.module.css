@@ -1,0 +1,49 @@
+.form_invoice {
+  display: block;
+  flex-wrap: wrap;
+  padding: 5%;
+  font-size: 15px;
+}
+
+.form_label {
+  display: flex;
+  text-transform: uppercase;
+  width: calc((100% - 10px) / 2);
+  flex-direction: column;
+}
+
+.form_label:first-child {
+  margin-right: 10px;
+}
+
+.input_box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form_input {
+  margin: 10px 0px;
+  padding: 5px;
+  height: 100%;
+  font-size: 12px;
+  border-radius: 5px;
+  border-color: rgb(160, 98, 221);
+}
+
+.form_btn {
+  padding: 10px 15px;
+  background: rebeccapurple;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.form_btn:hover,
+.form_btn:active,
+.form_btn:focus {
+  background-color: white;
+  color: blueviolet;
+  box-shadow: 0 0 10px rgb(71, 24, 133);
+}
